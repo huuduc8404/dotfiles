@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 rm -rf /home/gitpod/.oh-my-zsh
 cd /home/gitpod/.dotfiles
 RUNZSH="no" | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
