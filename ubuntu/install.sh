@@ -4,6 +4,7 @@ set -x
 sudo apt install python3-pip
 pip3 install apt-select
 ~/.local/bin/apt-select -C VN
+sudo mv sources.list /etc/apt/
 wget -O ohmyzsh.sh  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sudo apt install zsh -y
 chsh -s $(which zsh)
